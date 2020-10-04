@@ -27,6 +27,9 @@
     }
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     margin: 0%;
     padding: 0%;
@@ -230,13 +233,13 @@
   </section>
   <section>
     <ul class="menu">
-      <a href="#" class="menu-items">Home</a>
-      <a href="#" class="menu-items">Works</a>
-      <a href="#" class="menu-items">Contact Us</a>
+      <a href="#home-container-id" class="menu-items">Home</a>
+      <a href="#work-container-id" class="menu-items">Works</a>
+      <a href="#contact-us-container-id" class="menu-items">Contact Us</a>
     </ul>
   </section>
   <hr class="horizontal-line">
-  <section class="home-container">
+  <section class="home-container" id="home-container-id">
     <div class="home-items">
       <img class="user-title-logo" src="Udhay.jpg"></img>
     </div>
@@ -247,9 +250,9 @@
         and loves to code and develop Flutter Apps and Web Applications.</div>
     </div>
   </section>
-  <div class="user-title" style="text-align: center">WORKS</div>
+  <div class="user-title" style="text-align: center" id="work-container-id">WORKS</div>
   <hr class="horizontal-line">
-  <section class="works-container">
+  <section class="works-container" >
     <div class="work-items">
       <div class="container"
         onclick="window.open('https://play.google.com/store/apps/details?id=com.PicStory.pic_story_uk')">
@@ -287,7 +290,7 @@
     </div>
   </section>
   <div class="sized-box"></div>
-  <div class="user-title" style="text-align: center">CONTACT US</div>
+  <div class="user-title" style="text-align: center" id="contact-us-container-id">CONTACT US</div>
   <hr class="horizontal-line">
   <section class="contact-us">
     <div class="user-body">You can reach out to us through our email or through one of the social media site links
