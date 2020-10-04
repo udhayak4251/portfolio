@@ -143,6 +143,14 @@
     font-family: 'Open Sans Condensed', sans-serif;
   }
 
+  .contact-us-sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
   .user-card-sub-title {
     font-size: 12px;
     font-weight: 500;
@@ -177,6 +185,22 @@
     height: 110px;
   }
 
+  .email-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .sized-box {
+    height: 30px;
+  }
+
+  .contact-us {
+    margin: 2%;
+    text-align: center;
+  }
 
   /*  desktop size */
   @media only screen and (min-width: 768px) {
@@ -262,7 +286,25 @@
       </div>
     </div>
   </section>
+  <div class="sized-box"></div>
+  <div class="user-title" style="text-align: center">CONTACT US</div>
+  <hr class="horizontal-line">
+  <section class="contact-us">
+    <div class="user-body">You can reach out to us through our email or through one of the social media site links
+      provided below. Kindly give us 2 to 3 working days to respond to you. Thank you!
+      <div class="sized-box"></div>
+      <div class="email-section">
+        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="mail">
+          <polyline fill="none" stroke="#000" points="1.4,6.5 10,11 18.6,6.5"></polyline>
+          <path d="M 1,4 1,16 19,16 19,4 1,4 Z M 18,15 2,15 2,5 18,5 18,15 Z"></path>
+        </svg>
+        <div class="contact-us-sub-title">udhayak4251@gmail.com</div>
+      </div>
+      <div class="sized-box"></div>
+  </section>
 
+
+  </div>
 </body>
 <script>
   function menu_icon() {
